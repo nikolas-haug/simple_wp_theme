@@ -132,3 +132,25 @@ article.post a.button {
 .clr {
     clear: both;
 }
+
+.not-found__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    background: linear-gradient(to bottom right, blue, orange);
+}
+
+.not-found__text {
+    text-align: center;
+    color: #fff;
+}
+
+.not-found__text a {
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.not-found__text a:hover {
+    color: #fff;
+}
